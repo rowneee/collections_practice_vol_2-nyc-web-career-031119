@@ -34,6 +34,6 @@ def merge_data(keys, data)
   merged
 end
 
-def find_cool
-  
+def find_cool(cool)
+  cool.select do |x|  
 end
