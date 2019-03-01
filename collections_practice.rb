@@ -1,5 +1,5 @@
 def begins_with_r(array)
-  array.include?("r")
+  array.
 end
 
 def contain_a(array)
