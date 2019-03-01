@@ -12,8 +12,8 @@ end
 
 def first_wa(array)
   array.find do |x|
-   x
-  
+   x[0..1] = "wa"
+  end
 end
 
 def remove_non_strings(array, string)
