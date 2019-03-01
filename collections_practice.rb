@@ -12,7 +12,7 @@ end
 
 def first_wa(array)
   array.find do |x|
-   x[0..1] = "wa"
+   x[0] == "w" && x[1] == "a"
   end
 end
 
