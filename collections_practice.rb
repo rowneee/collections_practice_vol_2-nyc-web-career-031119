@@ -35,5 +35,6 @@ def merge_data(keys, data)
       if x.values[0] == k then merged << x.merge(v)
       end
     end
+    merged
   end
 end
