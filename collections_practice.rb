@@ -1,5 +1,5 @@
 def begins_with_r(array, name)
-    array.collect do |x|
+    array.all do |x|
     x[0] == "r"
     end
 end
