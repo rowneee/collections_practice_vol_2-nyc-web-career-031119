@@ -4,5 +4,6 @@ end
 
 def contain_a(array)
   array.select do |x|
-    x.
+    x.include?("a")
+  end
 end  
