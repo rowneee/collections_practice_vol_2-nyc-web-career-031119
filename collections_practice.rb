@@ -3,3 +3,7 @@ def begins_with_r
   else
   end
 end
+
+def contain_a
+  
+end  
