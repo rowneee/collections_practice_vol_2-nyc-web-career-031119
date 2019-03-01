@@ -49,5 +49,5 @@ def organize_schools(schools)
   end
   new_hash.each do |k, v|
     schools.each do |k1, v1|
-      if k == v1[:location] then v 
+      if k == v1[:location] then v << k1
 end
