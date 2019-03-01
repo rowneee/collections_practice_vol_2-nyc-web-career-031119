@@ -18,5 +18,6 @@ end
 def remove_non_strings(array, string)
   array.select do |x|
     x.include?(string)
+    return string
   end
 end
