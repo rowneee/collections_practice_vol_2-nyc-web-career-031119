@@ -33,4 +33,7 @@ def merge_data(keys, data)
   keys.each do |x|
     data.first.map do |k, v|
       if x.values[0] == k then merged << x.merge(v)
+      end
+    end
+  end
 end
