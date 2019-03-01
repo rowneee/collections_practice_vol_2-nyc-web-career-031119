@@ -1,6 +1,6 @@
 def begins_with_r(array, name)
-    array. do |x|
-    x[0]"r"
+    array.select do |x|
+    x[0] == "r"
  #end
 end
 
