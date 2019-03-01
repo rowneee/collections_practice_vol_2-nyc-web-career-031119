@@ -30,5 +30,6 @@ end
 
 def merge_data(keys, data)
   merged = []
-  keys.each do |
+  keys.each do |x|
+    
 end
