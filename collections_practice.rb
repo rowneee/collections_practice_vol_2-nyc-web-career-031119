@@ -50,4 +50,7 @@ def organize_schools(schools)
   new_hash.each do |k, v|
     schools.each do |k1, v1|
       if k == v1[:location] then v << k1
+      end
+    end
+  end
 end
