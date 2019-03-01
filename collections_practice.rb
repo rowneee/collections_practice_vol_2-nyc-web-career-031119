@@ -1,6 +1,5 @@
 def begins_with_r(array, name)
     if name.start_with?("r")
-    end
   end
 end
 
