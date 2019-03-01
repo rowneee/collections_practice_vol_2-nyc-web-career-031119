@@ -1,5 +1,4 @@
 def begins_with_r(array, name)
-  array.collect do |name|
     if name.start_with?("r")
     end
   end
