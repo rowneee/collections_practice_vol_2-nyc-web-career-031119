@@ -44,5 +44,5 @@ end
 
 def organize_schools(schools)
   schools.sort |a, b|
-  
+    a <=> b
 end
