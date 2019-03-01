@@ -16,7 +16,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array, string)
-  array.select do |x|
-    x.include?(string)
-  end
+  #array.select do |x|
+  #  x.include?(string)
+  #end
 end
