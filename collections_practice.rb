@@ -47,5 +47,5 @@ def organize_schools(schools)
   schools.collect do |k, v|
     new_hash[v:[location]] = []
   end
-  new_hash.each
+  new_hash.each do |k, v|
 end
