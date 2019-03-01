@@ -36,5 +36,5 @@ end
 
 def find_cool(cool)
   cool.select do |x|
-    x.any?
+    x.any? do |i|
 end
