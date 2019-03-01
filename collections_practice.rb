@@ -17,4 +17,6 @@ end
 
 def remove_non_strings(array, string)
   array.delete_if do |x|
-    x.
+    x.!string
+  end
+end
