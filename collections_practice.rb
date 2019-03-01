@@ -16,4 +16,4 @@ def first_wa(array)
 end
 
 def remove_non_strings(array, string)
-  
+  array.delete_if
