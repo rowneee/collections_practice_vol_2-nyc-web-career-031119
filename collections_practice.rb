@@ -37,5 +37,7 @@ end
 def find_cool(cool)
   cool.select do |x|
     x.any? do |k, v|
-      
+      v == "cool"
+    end
+  end
 end
