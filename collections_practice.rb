@@ -1,5 +1,9 @@
 def begins_with_r(array)
-  array.
+  if array.start_with?("r")
+    return true
+  else 
+    return false 
+  end
 end
 
 def contain_a(array)
