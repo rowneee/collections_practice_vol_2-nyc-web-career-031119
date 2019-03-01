@@ -1,6 +1,6 @@
 def begins_with_r(array)
-  
-  if .start_with?("r")
+  array.each do |name|
+  if name.start_with?("r")
     return true
   else 
     return false 
