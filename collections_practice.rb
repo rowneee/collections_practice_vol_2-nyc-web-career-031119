@@ -14,3 +14,5 @@ def first_wa(array)
     x
   
 end
+
+def remove_non_strings
