@@ -35,5 +35,6 @@ def merge_data(keys, data)
 end
 
 def find_cool(cool)
-  cool.select do |x|  
+  cool.select do |x|
+    x.any?
 end
