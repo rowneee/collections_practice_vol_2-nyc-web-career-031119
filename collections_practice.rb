@@ -17,6 +17,6 @@ end
 
 def remove_non_strings(array, string)
   array.select do |x|
-    x.string
+    x
   end
 end
