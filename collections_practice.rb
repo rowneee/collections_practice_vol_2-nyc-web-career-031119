@@ -31,5 +31,5 @@ end
 def merge_data(keys, data)
   merged = []
   keys.each do |x|
-    data.first.map
+    data.first.map do |k, v|
 end
