@@ -43,5 +43,7 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  
+  new_hash = {}
+    schools.collect {|k,v| new_hash[v[:location]] = []}
+    new_hash.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1  end}}
 end
