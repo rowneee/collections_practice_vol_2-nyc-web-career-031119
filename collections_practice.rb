@@ -1,7 +1,7 @@
 def begins_with_r(array, name)
     array.select do |x|
     x[0] == "r"
-    lend
+    end
 end
 
 def contain_a(array)
