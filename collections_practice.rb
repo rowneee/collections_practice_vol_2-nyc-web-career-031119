@@ -42,4 +42,6 @@ def find_cool(cool)
   end
 end
 
-def organize_schools
+def organize_schools(schools)
+  schools.sort 
+end
