@@ -29,5 +29,5 @@ end
 
 
 def merge_data(keys, data)
-  
+  keys << data
 end
