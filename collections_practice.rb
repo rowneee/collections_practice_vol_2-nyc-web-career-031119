@@ -1,6 +1,6 @@
 def begins_with_r(array, name)
     array. do |x|
-    if name.start_with?("r")
+    x[0]"r"
  #end
 end
 
